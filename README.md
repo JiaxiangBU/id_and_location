@@ -27,3 +27,5 @@
 ## 数据下载
 
 [数据下载](output/190801-lijiaxiang-id6_location_lon_lat.xlsx)
+
+数据量为 5229 条。

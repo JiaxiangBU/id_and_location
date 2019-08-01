@@ -36,3 +36,10 @@ knitr::opts_chunk$set(
 ## 数据下载
 
 [数据下载](output/190801-lijiaxiang-id6_location_lon_lat.xlsx)
+
+```{r include=FALSE}
+library(magrittr)
+n_obs <- readxl::read_excel("output/190801-lijiaxiang-id6_location_lon_lat.xlsx") %>% nrow()
+```
+
+数据量为 `r n_obs` 条。
